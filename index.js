@@ -28,7 +28,7 @@
         .attr('text-anchor', 'middle')
         .style('font-family', 'Helvetica')
         .style('font-size', 20)
-        .text('Line Chart');
+        .text('Heart Rate against Time');
         
         // X label
         svg.append('text')
@@ -37,7 +37,7 @@
         .attr('text-anchor', 'middle')
         .style('font-family', 'Helvetica')
         .style('font-size', 12)
-        .text('Independant');
+        .text('time');
         
         // Y label
         svg.append('text')
@@ -45,7 +45,7 @@
         .attr('transform', 'translate(60,' + height + ')rotate(-90)')
         .style('font-family', 'Helvetica')
         .style('font-size', 12)
-        .text('Dependant');
+        .text('heart rate (beats/min)');
 
         // Step 6
         g.append("g")
